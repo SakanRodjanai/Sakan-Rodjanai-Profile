@@ -1,0 +1,185 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    color: #9a5307;
+}
+
+img {
+    height: 180px;
+    width: 130px;
+}
+
+.top-container {
+    background-color: #decabd;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+
+.topwheat {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.leftwheat {
+    position: relative;
+    rotate: 50deg;
+    transform: scaleX(-1);
+}
+
+.rightwheat {
+    position: relative;
+    rotate: -50deg;
+
+}
+
+.who {
+    font-family: "Dancing Script", system-ui;
+    margin: 0;
+    padding-top: 30px;
+    color: #9a5307;
+    font-size: 5.6rem;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Poetsen One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    color: #9a5307;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.botwheat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botrightwheat {
+    position: relative;
+    transform: scaleX(-1);
+    rotate: -50deg;
+}
+
+.botleftwheat {
+    position: relative;
+    rotate: 50deg;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.profile>img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bonjour {
+    font-family: "Dancing Script", system-ui;
+    margin: 0;
+    padding-top: 30px;
+    color: #9a5307;
+    font-size: 3rem;
+}
+
+.profile>.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    margin-top: 55px;
+}
+
+hr {
+    border: dotted #9a5307 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.title-font-header {
+    font-family: "Poetsen One", system-ui;
+    font-weight: normal;
+    font-style: normal;
+    color: #9a5307;
+    font-size: 3rem;
+}
+
+.skill {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.skill img {
+    width: 180px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+
+h2 {
+    font-size: 3rem;
+}
+
+.contact-me>p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background: #ffd43a;
+    background-image: -webkit-linear-gradient(top, #575d18, #ffb237bd);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.btn:hover {
+    background: #13f34f;
+    background-image: -webkit-linear-gradient(top, #390b7c, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #bf911c, #2bc4ad);
+    background-image: -o-linear-gradient(top, #f43030, #2bc4ad);
+    background-image: linear-gradient(to bottom, #1d463c, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #decabd;
+    padding: 100px 50px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.bottom-container>.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
